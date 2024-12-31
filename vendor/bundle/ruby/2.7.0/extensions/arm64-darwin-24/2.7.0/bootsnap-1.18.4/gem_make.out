@@ -1,0 +1,21 @@
+current directory: /Users/natsuki/ra-blog-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/ext/bootsnap
+/Users/natsuki/.rbenv/versions/2.7.7/bin/ruby -I /Users/natsuki/.rbenv/versions/2.7.7/lib/ruby/2.7.0 -r ./siteconf20241231-4851-17q4a6w.rb extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/natsuki/ra-blog-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/natsuki/ra-blog-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/natsuki/ra-blog-app/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.18.4/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20241231-4851-g9kv1r/bootsnap
